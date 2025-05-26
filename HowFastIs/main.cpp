@@ -9,8 +9,8 @@
 
 void printHelp()
 {
-    std::cout << "\nHowFastIs 1.0 (x64) : (c) TechWhizKid - All rights reserved." << std::endl;
-    std::cout << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"" << std::endl
+    std::cout << "\nHowFastIs 1.0 (x64) : (c) 8gudbits - All rights reserved." << std::endl;
+    std::cout << "Source - \"https://github.com/8gudbits/8gudbitsKit\"" << std::endl
               << std::endl;
     std::cout << "Usage: HowFastIS [--file/-f <filename>] [--nobanner/-n] [--help/-h]\n" << std::endl;
     std::cout << "Options:\n" << std::endl;
@@ -57,8 +57,8 @@ int main(int argc, char *argv[])
     // Display the banner if showBanner is true
     if (showBanner)
     {
-        std::cout << "\nHowFastIs 1.0 (x64) : (c) TechWhizKid - All rights reserved." << std::endl;
-        std::cout << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"" << std::endl;
+        std::cout << "\nHowFastIs 1.0 (x64) : (c) 8gudbits - All rights reserved." << std::endl;
+        std::cout << "Source - \"https://github.com/8gudbits/8gudbitsKit\"" << std::endl;
     }
 
     // Check if the file name is provided

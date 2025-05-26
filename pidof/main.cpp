@@ -81,7 +81,9 @@ int main(int argc, char *argv[])
     std::string title;
 
     if (argc < 2) {
-        std::cerr << "Usage: " << argv[0] << " [<filename>...[--title/-t <title>]] [--help/-h] [--nobanner/-n] [--help/-h]\n";
+        std::cerr << "\npidof 1.1 (x64) : (c) 8gudbits - All rights reserved.\n"
+                  << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n\n"
+                  << "Usage: " << argv[0] << " [<filename>...[--title/-t <title>]] [--help/-h] [--nobanner/-n] [--help/-h]\n";
         return 1;
     }
 
@@ -94,8 +96,8 @@ int main(int argc, char *argv[])
         }
         else if (arg == "--help" || arg == "-h")
         {
-            std::cout << "\npidof 1.1 (x64) : (c) TechWhizKid - All rights reserved.\n"
-                      << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n"
+            std::cout << "\npidof 1.1 (x64) : (c) 8gudbits - All rights reserved.\n"
+                      << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n"
                       << "\nUsage: " << argv[0] << " [<filename>...[--title/-t <title>]] [--help/-h] [--nobanner/-n] [--help/-h]\n"
                       << "\nOptions:\n"
                       << " -h, --help         Display this help menu.\n"
@@ -122,8 +124,8 @@ int main(int argc, char *argv[])
 
     if (show_banner)
     {
-        std::cout << "\npidof 1.1 (x64) : (c) TechWhizKid - All rights reserved.\n"
-                  << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n";
+        std::cout << "\npidof 1.1 (x64) : (c) 8gudbits - All rights reserved.\n"
+                  << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n";
     }
 
     std::cout << "\n"

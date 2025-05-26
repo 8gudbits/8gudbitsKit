@@ -62,8 +62,8 @@ int main(int argc, char *argv[])
 
     if (helpFlag)
     {
-        std::cout << "\nADSman 1.1 (x64) : (c) TechWhizKid - All rights reserved.\n"
-                  << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n"
+        std::cout << "\nADSman 1.1 (x64) : (c) 8gudbits - All rights reserved.\n"
+                  << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n"
                   << "\nUsage: " << argv[0] << " [--file/-f <file>] [--add/-a <source> --to/-t <target>] [[--remove/-rm | --extract/-e <adsName>] --from-file/-ff <filename>] [--nobanner/-n] [--help/-h]\n"
                   << "\nOptions:\n"
                   << "  -h, --help               Display this help menu and exit.\n"
@@ -78,8 +78,8 @@ int main(int argc, char *argv[])
     }
     else if (ShowBanner)
     {
-        std::cout << "\nADSman 1.1 (x64) : (c) TechWhizKid - All rights reserved.\n"
-                  << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n";
+        std::cout << "\nADSman 1.1 (x64) : (c) 8gudbits - All rights reserved.\n"
+                  << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n";
     }
 
     // Perform actions based on flags

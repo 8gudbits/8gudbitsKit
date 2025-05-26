@@ -31,7 +31,7 @@ def test_network_speed(test_download=True, test_upload=True):
 def main():
     """Main function to execute the network speed test based on CLI arguments."""
     # Set up the argument parser
-    parser = argparse.ArgumentParser(description='PulseNet 1.0 (x64) : (c) TechWhizKid - All rights reserved.')
+    parser = argparse.ArgumentParser(description='PulseNet 1.0 (x64) : (c) 8gudbits - All rights reserved.')
     parser.add_argument('-u', '--upload', action='store_true', help='Test upload speed only.')
     parser.add_argument('-d', '--download', action='store_true', help='Test download speed only.')
     parser.add_argument('-n', '--nobanner', action='store_true', help='Suppresses the banner.')
@@ -41,8 +41,8 @@ def main():
 
     # Print the banner unless the --nobanner/-n flag is provided
     if not args.nobanner:
-        print("\nPulseNet 1.0 (x64) : (c) TechWhizKid - All rights reserved.")
-        print("Source - \"https://github.com/TechWhizKid/TechWhizKit\"")
+        print("\nPulseNet 1.0 (x64) : (c) 8gudbits - All rights reserved.")
+        print("Source - \"https://github.com/8gudbits/8gudbitsKit\"")
 
     # If both upload and download are specified, or neither, test both
     test_both = args.upload and args.download or not (args.upload or args.download)
@@ -61,4 +61,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n\nOperation aborted by user.")
+        sys.exit(0)
+

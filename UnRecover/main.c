@@ -152,8 +152,8 @@ int main(int argc, char *argv[])
     // Check if the drive letter is provided as an argument
     if (argc < 2 || argc > 6)
     {
-        printf("\nUnRecover 1.0 Beta (x64) : (c) TechWhizKid - All rights reserved.\n");
-        printf("Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n");
+        printf("\nUnRecover 1.0 Beta (x64) : (c) 8gudbits - All rights reserved.\n");
+        printf("Source - \"https://github.com/8gudbits/8gudbitsKit\"\n");
         printf("\nUsage: %s <drive letter> [--suppress-warning/-s] [--pass/-p <number>] [--nobanner/-n] [--help/-h]\n", argv[0]);
         printf("Use --help/-h to see the help menu.\n");
         return 1;
@@ -214,8 +214,8 @@ int main(int argc, char *argv[])
         else if (strcmp(argv[i], "--help") == 0 || strcmp(argv[i], "-h") == 0)
         {
             // Print the help menu
-            printf("\nUnRecover 1.0 Beta (x64) : (c) TechWhizKid - All rights reserved.\n");
-            printf("Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n");
+            printf("\nUnRecover 1.0 Beta (x64) : (c) 8gudbits - All rights reserved.\n");
+            printf("Source - \"https://github.com/8gudbits/8gudbitsKit\"\n");
             printf("\nUsage: %s <drive letter> [--suppress-warning/-s] [--pass/-p <number>] [--nobanner/-n] [--help/-h]\n", argv[0]);
             printf("\nOptions:\n");
             printf("-n, --nobanner\t\tSuppresses the banner.\n");
@@ -262,8 +262,8 @@ int main(int argc, char *argv[])
     // Print the banner if the flag is not passed
     if (show_banner)
     {
-        printf("\nUnRecover 1.0 Beta (x64) : (c) TechWhizKid - All rights reserved.\n");
-        printf("Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n");
+        printf("\nUnRecover 1.0 Beta (x64) : (c) 8gudbits - All rights reserved.\n");
+        printf("Source - \"https://github.com/8gudbits/8gudbitsKit\"\n");
     }
 
     // Check if the drive is supported and recognized

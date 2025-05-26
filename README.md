@@ -1,6 +1,6 @@
-# TechWhizKit
+# 8gudbitsKit
 
-<em>TechWhizKit is a collection of small tools designed to perform various tasks. Whether you’re a developer, sysadmin, or just someone who loves tinkering with technology, these utilities can come in handy.</em>
+<em>8gudbitsKit is a collection of small tools designed to perform various tasks. Whether you’re a developer, sysadmin, or just someone who loves tinkering with technology, these utilities can come in handy.</em>
 
 ---
 
@@ -11,14 +11,14 @@
 1. _To get started, 🔗 clone the project using Git:_
 
 ```bash
-git clone --depth 1 https://github.com/TechWhizKid/TechWhizKit.git
+git clone --depth 1 https://github.com/8gudbits/8gudbitsKit.git
 ```
 
 - _Alternatively, you can download the binaries for each tool individually by clicking **[here](./bin)** or directly by clicking on the app's name._ 🚀
 
 ### Available Tools
 
-#### <a href="https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/UnRecover.exe">UnRecover</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/UnRecover.exe">UnRecover</a>
 
 - **Description:** Securely overwrite's sensitive files and clean free space of previously deleted files.
 
@@ -27,7 +27,7 @@ git clone --depth 1 https://github.com/TechWhizKid/TechWhizKit.git
   UnRecover <drive letter> [--pass/-p <number>] [--suppress-warning/-s] [--nobanner] [--help/-h]
   ```
 
-#### <a href="https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/SecurByte.exe">SecurByte</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/SecurByte.exe">SecurByte</a>
 
 - **Description:** Encrypts and decrypts files using a password and AES-256-CBC algorithm.
 
@@ -36,7 +36,7 @@ git clone --depth 1 https://github.com/TechWhizKid/TechWhizKit.git
   SecurByte [--encrypt-file/-ef | --decrypt-file/-df <filepath>] [--passwd/-p <password>] [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/WiFiRe.exe">WiFiRe</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/WiFiRe.exe">WiFiRe</a>
 
 - **Description:** Displays the passwords of previously accessed WiFi networks, in case you need to share them and you don’t remember their password.
 
@@ -45,7 +45,7 @@ git clone --depth 1 https://github.com/TechWhizKid/TechWhizKit.git
   WiFiRe [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/LnkScout.exe">LnkScout</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/LnkScout.exe">LnkScout</a>
 
 - **Description:** A tool designed to scan directories for Windows shortcut files, verifying their validity and offering options to display or remove invalid links.
 
@@ -54,7 +54,7 @@ git clone --depth 1 https://github.com/TechWhizKid/TechWhizKit.git
   LnkScout <directory path> [--valid/-v | --invalid/-i [--remove/-r]] [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/pidof.exe">pidof</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/pidof.exe">pidof</a>
 
 - **Description:** pidof is a tool that can list the PIDs and memory usage of specified processes by their file names or window title.
 
@@ -63,7 +63,7 @@ git clone --depth 1 https://github.com/TechWhizKid/TechWhizKit.git
   pidof [<filename>...[--title/-t <title>]] [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/BackToIP.exe">BackToIP</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/BackToIP.exe">BackToIP</a>
 
 - **Description:** Finds IPv4 and IPv6 addresses of any specified url.
 
@@ -72,7 +72,7 @@ git clone --depth 1 https://github.com/TechWhizKid/TechWhizKit.git
   BackToIP --url/-u <url> [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/PulseNet.exe">PulseNet</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/PulseNet.exe">PulseNet</a>
 
 - **Description:** Tool to measure the peak download and upload speeds of your internet connection.
 - **Usage:**
@@ -80,7 +80,7 @@ git clone --depth 1 https://github.com/TechWhizKid/TechWhizKit.git
   PulseNet [--upload/-u] [--download/-d] [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/ADSman.exe">ADSman</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/ADSman.exe">ADSman</a>
 
 - **Description:** A versatile command-line utility for managing alternate data streams in files on NTFS file systems.
 
@@ -89,7 +89,7 @@ git clone --depth 1 https://github.com/TechWhizKid/TechWhizKit.git
   ADSman [--file/-f <file>] [--add/-a <source> --to/-t <target>] [[--remove/-rm | --extract/-e <adsName>] --from-file/-ff <filename>] [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/HowFastIs.exe">HowFastIs</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/HowFastIs.exe">HowFastIs</a>
 
 - **Description:** A command-line utility to check how fast a program finishes executing.
 
@@ -106,7 +106,7 @@ _Contributions are welcome! If you have an idea for a new tool or want to improv
 
 ## License
 
-_This project is licensed under the **[Apache License 2.0](https://github.com/TechWhizKid/TechWhizKit/blob/main/LICENSE)** - see the LICENSE file for details._
+_This project is licensed under the **[Apache License 2.0](https://github.com/8gudbits/8gudbitsKit/blob/main/LICENSE)** - see the LICENSE file for details._
 
 ---
 

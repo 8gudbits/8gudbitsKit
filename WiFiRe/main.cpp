@@ -101,8 +101,8 @@ int main(int argc, char *argv[])
         // If the argument is "--help" or "-h", print the help menu and exit
         if (string(argv[i]).compare("--help") == 0 || string(argv[i]).compare("-h") == 0)
         {
-            cout << "\nWiFiRe 1.0 (x64) : (c) TechWhizKid - All rights reserved.\n"
-                 << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n"
+            cout << "\nWiFiRe 1.0 (x64) : (c) 8gudbits - All rights reserved.\n"
+                 << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n"
                  << "\nUsage: " << argv[0] << " [--nobanner/-n] [--help/-h]\n"
                  << "\nOptions:\n"
                  << "-h, --help\t\tShows this help menu.\n"
@@ -114,8 +114,8 @@ int main(int argc, char *argv[])
     // If the flag is 1, print the banner
     if (show_banner)
     {
-        cout << "\nWiFiRe 1.0 (x64) : (c) TechWhizKid - All rights reserved.\n"
-             << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n";
+        cout << "\nWiFiRe 1.0 (x64) : (c) 8gudbits - All rights reserved.\n"
+             << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n";
     }
 
     // Print a message indicating the start of the process
