@@ -124,8 +124,8 @@ int main(int argc, char *argv[])
         else if (arg == "-h" || arg == "--help")
         {
             // Display help message and exit
-            std::cout << "\nLnkScout 1.0 (x64) : (c) TechWhizKid - All rights reserved.\n"
-                      << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n"
+            std::cout << "\nLnkScout 1.0 (x64) : (c) 8gudbits - All rights reserved.\n"
+                      << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n"
                       << "\nUsage: " << argv[0] << " <directory path> [--valid/-v | --invalid/-i [--remove/-r]] [--nobanner/-n] [--help/-h]\n"
                       << "\nOptions:\n"
                       << " -h, --help         Show this help message.\n"
@@ -173,8 +173,8 @@ int main(int argc, char *argv[])
     // Display the banner if not suppressed
     if (show_banner)
     {
-        std::cout << "\nLnkScout 1.0 (x64) : (c) TechWhizKid - All rights reserved.\n"
-                  << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n";
+        std::cout << "\nLnkScout 1.0 (x64) : (c) 8gudbits - All rights reserved.\n"
+                  << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n";
     }
     // Start the scanning process
     std::cout << "\nLooking for shortcut files . . ." << std::endl;

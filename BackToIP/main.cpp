@@ -103,8 +103,8 @@ int main(int argc, char *argv[])
 
     if (cmdArgs.find("-h") != cmdArgs.end() || cmdArgs.find("--help") != cmdArgs.end())
     {
-        std::cout << "\nBackToIP 1.0 (x64) : (c) TechWhizKid - All rights reserved.\n"
-                  << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n\n"
+        std::cout << "\nBackToIP 1.0 (x64) : (c) 8gudbits - All rights reserved.\n"
+                  << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n\n"
                   << "Usage: " << argv[0] << " -u/--url <url> [-n/--nobanner] [-h/--help]\n"
                   << "\nOptions:\n"
                   << " -h, --help         Display this help menu.\n"
@@ -120,8 +120,8 @@ int main(int argc, char *argv[])
 
     if (cmdArgs.find("-n") == cmdArgs.end() && cmdArgs.find("--nobanner") == cmdArgs.end())
     {
-        std::cout << "\nBackToIP 1.0 (x64) : (c) TechWhizKid - All rights reserved.\n";
-        std::cout << "Source - \"https://github.com/TechWhizKid/TechWhizKit\"\n";
+        std::cout << "\nBackToIP 1.0 (x64) : (c) 8gudbits - All rights reserved.\n";
+        std::cout << "Source - \"https://github.com/8gudbits/8gudbitsKit\"\n";
     }
 
     auto urlIt = cmdArgs.find("-u");
