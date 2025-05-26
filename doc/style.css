@@ -1,10 +1,58 @@
+:root {
+    --background: #282A36;
+    --foreground: #F8F8F2;
+    --purple: #BD93F9;
+    --raisin-black: #242135;
+    --dark-purple: #3c3463;
+    --medium-slate-blue: #434E71;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
-    background: #282A36;
-    color: #F8F8F2;
+    padding: 20px;
+    min-height: 100vh;
+    color: var(--foreground);
+    background: transparent;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: radial-gradient(circle, var(--dark-purple) 0%, var(--raisin-black) 100%);
+    background-size: 300% 300%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: center;
+    }
+
+    20% {
+        background-position: top left;
+    }
+
+    40% {
+        background-position: bottom right;
+    }
+
+    60% {
+        background-position: top right;
+    }
+
+    80% {
+        background-position: bottom left;
+    }
+
+    100% {
+        background-position: center;
+    }
 }
 
 section {
@@ -14,25 +62,33 @@ section {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(189, 147, 249, 0.1);
 }
 
 h3 {
     font-size: 24px;
-    color: #BD93F9;
+    color: var(--purple);
     padding-bottom: 10px;
     margin-bottom: 20px;
-    border-bottom: 3px solid #BD93F9;
+    border-bottom: 3px solid var(--purple);
+    text-align: center;
 }
 
 article {
     margin-bottom: 30px;
-    border-left: 4px solid #BD93F9;
+    border-left: 4px solid var(--purple);
     padding-left: 20px;
+    transition: transform 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-3px);
 }
 
 h4 {
     font-size: 20px;
-    color: #F8F8F2;
+    color: var(--foreground);
     margin-bottom: 10px;
 }
 
@@ -43,13 +99,13 @@ p {
 a {
     text-decoration: none;
     position: relative;
-    color: #BD93F9;
+    color: var(--purple);
 }
 
 a:hover,
 a:focus {
     text-decoration: underline;
-    text-decoration-color: #BD93F9;
+    text-decoration-color: var(--purple);
 }
 
 pre {
@@ -72,7 +128,7 @@ pre::-webkit-scrollbar-track {
 }
 
 pre::-webkit-scrollbar-thumb {
-    background: #BD93F9;
+    background: var(--purple);
     border-radius: 4px;
 }
 
@@ -87,5 +143,9 @@ code {
 
     h4 {
         font-size: 18px;
+    }
+
+    body {
+        padding: 10px;
     }
 }
