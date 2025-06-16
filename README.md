@@ -55,12 +55,13 @@
   pidof [<filename>...[--title/-t <title>]] [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/BackToIP.exe">💾 BackToIP</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/IPof.exe">💾 IPof</a>
 
 - **Description:** Finds IPv4 and IPv6 addresses of any specified url.
+- **Source code:** [IPof Repository](https://github.com/8gudbits/IPof)
 - **Usage:**
   ```bash
-  BackToIP --url/-u <url> [--nobanner/-n] [--help/-h]
+  IPof --url/-u <url> [--nobanner/-n] [--help/-h]
   ```
 
 #### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/PulseNet.exe">💾 PulseNet</a>
