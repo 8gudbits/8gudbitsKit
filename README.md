@@ -29,12 +29,13 @@
   SecurByte [--encrypt-file/-ef | --decrypt-file/-df <filepath>] [--passwd/-p <password>] [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/WiFiRe.exe">💾 WiFiRe</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/MyWiFiKey.exe">💾 MyWiFiKey</a>
 
 - **Description:** Displays the passwords of previously accessed WiFi networks, in case you need to share them and you don’t remember their password.
+- **Source code:** [MyWiFiKey Repository](https://github.com/8gudbits/MyWiFiKey)
 - **Usage:**
   ```bash
-  WiFiRe [--nobanner/-n] [--help/-h]
+  MyWiFiKey [--nobanner/-n] [--help/-h]
   ```
 
 #### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/LnkScout.exe">💾 LnkScout</a>
