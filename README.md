@@ -48,6 +48,7 @@
 #### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/pidof.exe">💾 Pidof</a>
 
 - **Description:** pidof is a tool that can list the PIDs and memory usage of specified processes by their file names or window title.
+- **Source code:** [Pidof Repository](https://github.com/8gudbits/Pidof)
 - **Usage:**
   ```bash
   pidof [<filename>...[--title/-t <title>]] [--nobanner/-n] [--help/-h]
