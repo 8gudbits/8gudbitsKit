@@ -64,9 +64,10 @@
   pidof [<filename>...[--title/-t <title>]] [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/PulseNet.exe">💾 PulseNet v1.0</a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/PulseNet.exe">💾 PulseNet v1.1</a>
 
 - **Description:** Tool to measure the peak download and upload speeds of your internet connection.
+- **Source code:** [PulseNet Repository](https://github.com/8gudbits/PulseNet)
 - **Usage:**
   ```bash
   PulseNet [--upload/-u] [--download/-d] [--nobanner/-n] [--help/-h]
