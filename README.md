@@ -38,9 +38,10 @@
   IPof --url/-u <url> [--nobanner/-n] [--help/-h]
   ```
 
-#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/LnkScout.exe">💾 LnkScout v1.0 </a>
+#### <a href="https://github.com/8gudbits/8gudbitsKit/raw/main/bin/LnkScout.exe">💾 LnkScout v1.1 </a>
 
-- **Description:** A tool to scan directories for shortcut (`.lnk`) files, verifying their validity and has options to display or remove invalid shortcuts.
+- **Description:** A tool to scan directories for shortcut (`.lnk`) files, verifying their validity with options to display or remove invalid shortcuts.
+- **Source code:** [LnkScout Repository](https://github.com/8gudbits/LnkScout)
 - **Usage:**
   ```bash
   LnkScout <directory path> [--valid/-v | --invalid/-i [--remove/-r]] [--nobanner/-n] [--help/-h]
