@@ -59,14 +59,14 @@
   MyWiFiKey [--nobanner/-n] [--help/-h]
   ```
 
-#### [💾 Perks v1.0](/bin/Perks.exe)
+#### [💾 Perks v1.1](/bin/Perks.exe)
 
 - **Description:** CLI tool for generating and verifying file hashes (MD5, SHA1, SHA256, SHA512) across directories.
 - **Source code:** [Perks Repository](https://github.com/8gudbits/Perks)
 - **Usage:**
   ```bash
-  Perks -[md5|sha1|sha256|sha512] <path> [-f/--file <outfile.perks>] [-n/--nobanner]
-  Perks -v/--verify <path> [-f/--file <infile.perks>] [-n/--nobanner]
+  Perks -[md5|sha1|sha256|sha512] [path] [-f/--file <file.perks>] [-l/--logfile <file.log>] [-n/--nobanner]
+  Perks -v/--verify [path] [-f/--file <file.perks>] [-l/--logfile <file.log>] [-n/--nobanner]
   ```
 
 #### [💾 Pidof v1.2](/bin/pidof.exe)
