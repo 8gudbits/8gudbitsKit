@@ -14,7 +14,7 @@
 
 ### Available Tools
 
-#### [💾 ADSman v1.2](/bin/ADSman.exe)
+#### [💾 ADSman v1.2](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/ADSman.exe)
 
 - **Description:** Tool for managing alternate data streams in files on NTFS file systems. Click [here](https://github.com/8gudbits/ADSman) for more information about Alternate Data Streams (ADS).
 - **Source code:** [ADSman Repository](https://github.com/8gudbits/ADSman)
@@ -23,7 +23,7 @@
   ADSman [--file/-f <file>] [--add/-a <source> --to/-t <target>] [[--remove/-rm | --extract/-e <adsName>] --from-file/-ff <filename>] [--nobanner/-n] [--help/-h]
   ```
 
-#### [💾 HowFastIs v1.1](/bin/HowFastIs.exe)
+#### [💾 HowFastIs v1.1](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/HowFastIs.exe)
 
 - **Description:** A command-line utility to check how fast a program finishes executing.
 - **Source code:** [HowFastIs Repository](https://github.com/8gudbits/HowFastIs)
@@ -32,7 +32,7 @@
   HowFastIs [--help/-h] [--nobanner/-n] [--file/-f <filename>]
   ```
 
-#### [💾 IPof v1.0](/bin/IPof.exe)
+#### [💾 IPof v1.0](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/IPof.exe)
 
 - **Description:** Finds IPv4 and IPv6 addresses of any specified url.
 - **Source code:** [IPof Repository](https://github.com/8gudbits/IPof)
@@ -41,7 +41,7 @@
   IPof --url/-u <url> [--nobanner/-n] [--help/-h]
   ```
 
-#### [💾 LnkScout v1.1](/bin/LnkScout.exe)
+#### [💾 LnkScout v1.1](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/LnkScout.exe)
 
 - **Description:** A tool to scan directories for shortcut (`.lnk`) files, verifying their validity with options to display or remove invalid shortcuts.
 - **Source code:** [LnkScout Repository](https://github.com/8gudbits/LnkScout)
@@ -50,7 +50,7 @@
   LnkScout <directory path> [--valid/-v | --invalid/-i [--remove/-r]] [--sort/-s] [--nobanner/-n] [--help/-h]
   ```
 
-#### [💾 MyWiFiKey v1.0](/bin/MyWiFiKey.exe)
+#### [💾 MyWiFiKey v1.0](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/MyWiFiKey.exe)
 
 - **Description:** Displays the passwords of previously accessed WiFi networks, in case you need to share them and you don’t remember their password.
 - **Source code:** [MyWiFiKey Repository](https://github.com/8gudbits/MyWiFiKey)
@@ -59,7 +59,7 @@
   MyWiFiKey [--nobanner/-n] [--help/-h]
   ```
 
-#### [💾 Perks v1.1](/bin/Perks.exe)
+#### [💾 Perks v1.1](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/Perks.exe)
 
 - **Description:** CLI tool for generating and verifying file hashes (MD5, SHA1, SHA256, SHA512) across directories.
 - **Source code:** [Perks Repository](https://github.com/8gudbits/Perks)
@@ -69,7 +69,7 @@
   Perks -v/--verify [path] [-f/--file <file.perks>] [-l/--logfile <file.log>] [-n/--nobanner]
   ```
 
-#### [💾 Pidof v1.2](/bin/pidof.exe)
+#### [💾 Pidof v1.2](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/pidof.exe)
 
 - **Description:** Tool to list the PIDs and memory usage of specified processes by their file names or window title.
 - **Source code:** [Pidof Repository](https://github.com/8gudbits/Pidof)
@@ -78,7 +78,7 @@
   pidof [<filename>...[--title/-t <title>]] [--nobanner/-n] [--help/-h]
   ```
 
-#### [💾 PulseNet v1.1](/bin/PulseNet.exe)
+#### [💾 PulseNet v1.1](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/PulseNet.exe)
 
 - **Description:** Tool to measure the peak download and upload speeds of your internet connection.
 - **Source code:** [PulseNet Repository](https://github.com/8gudbits/PulseNet)
@@ -87,7 +87,7 @@
   PulseNet [--upload/-u] [--download/-d] [--nobanner/-n] [--help/-h]
   ```
 
-#### [💾 SecurByte v1.1](/bin/SecurByte.exe)
+#### [💾 SecurByte v1.1](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/SecurByte.exe)
 
 - **Description:** Encrypts and decrypts any type of file with a password using AES-256-CBC algorithm.
 - **Source code:** [SecurByte Repository](https://github.com/8gudbits/SecurByte)
@@ -96,7 +96,7 @@
   SecurByte [--encrypt-file/-ef | --decrypt-file/-df <filepath>] [--passwd/-p <password>] [--nobanner/-n] [--help/-h]
   ```
 
-#### [💾 UnRecover v2.0](/bin/UnRecover.exe)
+#### [💾 UnRecover v2.0](https://github.com/TechWhizKid/TechWhizKit/raw/main/bin/UnRecover.exe)
 
 - **Description:** Securely overwrite's sensitive files and clean free space of previously deleted files.
 - **Source code:** [UnRecover Repository](https://github.com/8gudbits/UnRecover)
@@ -118,3 +118,4 @@ This project is licensed under the **[Apache License 2.0](https://github.com/8gu
 ---
 
 <p align="center">More Tools Comming Soon . . .</p>
+
