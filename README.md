@@ -87,6 +87,15 @@
   PulseNet [--upload/-u] [--download/-d] [--nobanner/-n] [--help/-h]
   ```
 
+#### [💾 RegiStart v1.0](https://github.com/8gudbits/8gudbitsKit/raw/main/bin/RegiStart.exe)
+
+- **Description:** CLI tool to manage Windows registry auto-start programs.
+- **Source code:** [RegiStart Repository](https://github.com/8gudbits/RegiStart)
+- **Usage:**
+  ```bash
+  RegiStart [--scan/-s] [--remove/-r] [--locations/-l] [--add/-a] [--nobanner/-n] [--help/-h]
+  ```
+
 #### [💾 SecurByte v1.1](https://github.com/8gudbits/8gudbitsKit/raw/main/bin/SecurByte.exe)
 
 - **Description:** Encrypts and decrypts any type of file with a password using AES-256-CBC algorithm.
