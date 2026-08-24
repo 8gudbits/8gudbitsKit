@@ -14,13 +14,13 @@
 
 ### Available Tools
 
-#### [💾 ADSman v1.2](https://github.com/8gudbits/8gudbitsKit/raw/main/bin/ADSman.exe)
+#### [💾 ADSman v2.0](https://github.com/8gudbits/8gudbitsKit/raw/main/bin/ADSman.exe)
 
 - **Description:** Tool for managing alternate data streams in files on NTFS file systems. Click [here](https://github.com/8gudbits/ADSman) for more information about Alternate Data Streams (ADS).
 - **Source code:** [ADSman Repository](https://github.com/8gudbits/ADSman)
 - **Usage:**
   ```bash
-  ADSman [--file/-f <file>] [--add/-a <source> --to/-t <target>] [[--remove/-rm | --extract/-e <adsName>] --from-file/-ff <filename>] [--nobanner/-n] [--help/-h]
+  ADSman [--target/-t <target>] [--find/-f] [--add/-a <source>] [--remove/-r <name>] [--extract/-e <name>] [--nobanner/-n] [--help/-h]
   ```
 
 #### [💾 HowFastIs v1.1](https://github.com/8gudbits/8gudbitsKit/raw/main/bin/HowFastIs.exe)
